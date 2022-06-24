@@ -8,6 +8,7 @@ En este ultimo desafío general vamos a utilizar el mismo array "Pizzas🍕":
 */
 
 const $input = document.getElementById('input');
+
 const $button = document.getElementById('button');
 const $ingredientes = document.createElement('h3');
 $ingredientes.setAttribute('class', 'ingredients');
@@ -17,6 +18,10 @@ const $container = document.getElementById('container');
 const $card = document.createElement('div');
 $card.setAttribute('class', 'card');
 
+//Función que, al tocar cualquiera de las pizzas, renderiza ese nombre en el texto del input
+function inputValue(text) {
+    $input.value = text;
+}
 
 class Pizza{
     constructor(ID, nombre, ingredientes, precio, image, description, calories, time){
