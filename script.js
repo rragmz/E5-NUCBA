@@ -116,7 +116,7 @@ const PizzasSelected = () => {
             //Precio
             const $price = document.createElement('i');
             $price.setAttribute('class', 'fa-solid fa-money-bill')
-            const priceText = document.createTextNode(' ' + pizzaSelected.precio);
+            const priceText = document.createTextNode(' $' + pizzaSelected.precio);
             $price.appendChild(priceText);
 
             //Agrego los hijos al div INFOPIZZA
