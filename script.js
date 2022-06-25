@@ -36,12 +36,12 @@ class Pizza{
     }
 }
 
-const American = new Pizza(1, 'AMERICAN', ['Muzzarella', 'salame', 'morroncito verde', 'panceta'], 1500, 'imgs/american/american.png', '¿Una pizza puede ser el vuelo directo al sabor de las calles de New York? ¡Descubrilo!', '1500 Kcal', '40 MIN');
-const Pepperoni = new Pizza(2, 'PEPPERONI', ['Muzzarella', 'una locura de salame', 'morroncito rojo', 'orégano fresco'], 1400, 'imgs/pepperoni.png', 'Nathy Peluso dice: "vendo mi alma por una pizza" y nosotros también, por esta! 🍕', '1600 Kcal', '25 MIN');
-const Classic = new Pizza(3, 'CLASSIC', ['Salsa de tomate casera caserita', 'muzzarella', 'orégano'], 1000, 'imgs/mozzarella.png', 'La muzza de siempre pero con una salsa que te va a volar la cabeza!', '1200 Kcal', '20 MIN');
-const Anchoita = new Pizza(4, 'ANCHOITA', ['Muzzarella', 'anchoitas', 'rúcula', 'aceitunas negras', 'quesito parmesano'], 1500, 'imgs/anchovy/anchovy-arugula.png', 'Comete esta pizza y avivate! A la clásica le agregamos un corazón de rúcula, para la dieta... 😝', '1300 Kcal', '40 MIN');
-const Pepperonion = new Pizza(5, 'PEPPERONION', ['Muzzarella', 'cebolla', 'morroncito verde'], 1100, 'imgs/onion-bellpepper.png', 'Somos muy fans del morrón en todos lados y cuando pruebes esta pizza vas a saber porqué', '1100 Kcal', '30 MIN');
-const Meat = new Pizza(6, 'MEAT', ['Muzzarella', 'carne picada', 'morroncito verde'], 1200, 'imgs/meat-bellpepper.png', 'Si sos fanático de la carne, esta es LA opción y si no consumís, no te preocupes, la vegetarianizamos 😏', '1150 Kcal', '40 MIN');
+const American = new Pizza(1, 'AMERICAN', ['Muzzarella', 'salame', 'morroncito verde', 'panceta'], 1500, 'imgs/tiny/american.png', '¿Una pizza puede ser el vuelo directo al sabor de las calles de New York? ¡Descubrilo!', '1500 Kcal', '40 MIN');
+const Pepperoni = new Pizza(2, 'PEPPERONI', ['Muzzarella', 'una locura de salame', 'morroncito rojo', 'orégano fresco'], 1400, 'imgs/tiny/pepperoni.png', 'Nathy Peluso dice: "vendo mi alma por una pizza" y nosotros también, por esta! 🍕', '1600 Kcal', '25 MIN');
+const Classic = new Pizza(3, 'CLASSIC', ['Salsa de tomate casera caserita', 'muzzarella', 'orégano'], 1000, 'imgs/tiny/mozzarella.png', 'La muzza de siempre pero con una salsa que te va a volar la cabeza!', '1200 Kcal', '20 MIN');
+const Anchoita = new Pizza(4, 'ANCHOITA', ['Muzzarella', 'anchoitas', 'rúcula', 'aceitunas negras', 'quesito parmesano'], 1500, 'imgs/tiny/anchovy-arugula.png', 'Comete esta pizza y avivate! A la clásica le agregamos un corazón de rúcula, para la dieta... 😝', '1300 Kcal', '40 MIN');
+const Pepperonion = new Pizza(5, 'PEPPERONION', ['Muzzarella', 'cebolla', 'morroncito verde'], 1100, 'imgs/tiny/onion-bellpepper.png', 'Somos muy fans del morrón en todos lados y cuando pruebes esta pizza vas a saber porqué', '1100 Kcal', '30 MIN');
+const Meat = new Pizza(6, 'MEAT', ['Muzzarella', 'carne picada', 'morroncito verde'], 1200, 'imgs/tiny/meat-bellpepper.png', 'Si sos fanático de la carne, esta es LA opción y si no consumís, no te preocupes, la vegetarianizamos 😏', '1150 Kcal', '40 MIN');
 
 
 const Pizzas = [];
