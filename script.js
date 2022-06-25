@@ -63,7 +63,7 @@ const PizzasSelected = () => {
         localStorage.setItem('Pizza seleccionada', JSON.stringify(pizzaSelected));
 
         if(pizzaSelected === undefined){
-            alert("No tenemos pizza con ese ID 🙁");
+            swal('Ups!', 'No tenemos pizza con ese nombre 🙁', 'error');
             $container.removeChild($card);
         }
         else{
